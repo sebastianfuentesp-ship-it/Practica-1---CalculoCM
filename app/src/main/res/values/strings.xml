@@ -1,0 +1,104 @@
+
+<resources>
+
+        <!-- GENERAL -->
+        <string name="app_name" translatable="false">CálculoCM</string>
+        <string name="app_slogan">Calcula • Aprende • Aplica</string>
+
+        <!-- ELEMENTOS COMUNES -->
+        <string name="etiqueta_formula">Fórmula</string>
+        <string name="etiqueta_sustitucion">Sustitución</string>
+        <string name="titulo_datos_entrada">Datos de entrada</string>
+        <string name="titulo_resultado">Resultado</string>
+        <string name="titulo_resultado_correcto">Resultado correcto</string>
+        <string name="titulo_datos_utilizados">Datos utilizados</string>
+        <string name="titulo_error_calculo">No se pudo calcular</string>
+        <string name="boton_calcular">Calcular</string>
+        <string name="boton_volver_menu">Volver al menú</string>
+        <string name="formato_dato_utilizado">%1$s: %2$s</string>
+        <string name="resultado_etiqueta">Resultado: %1$s</string>
+        <string name="descripcion_datos_calculo">Introduce los datos para calcular</string>
+
+        <!-- ECUACIÓN CUADRÁTICA -->
+        <string name="titulo_cuadratica">Ecuación de segundo grado</string>
+        <string name="formula_cuadratica">ax² + bx + c = 0</string>
+        <string name="coeficiente_a">Coeficiente a</string>
+        <string name="coeficiente_b">Coeficiente b</string>
+        <string name="coeficiente_c">Coeficiente c</string>
+        <string name="error_coeficiente_a_cero">En una ecuación cuadrática, el coeficiente a no puede ser cero.</string>
+        <string name="error_sin_raices_reales">La ecuación no tiene raíces reales.</string>
+        <string name="resultado_raices_reales">Raíces reales</string>
+        <string name="resultado_discriminante">Discriminante</string>
+        <string name="resultado_cuadratica">Raíces reales:\nx₁ = %1$s\nx₂ = %2$s\n\nDiscriminante:\nΔ = %3$s</string>
+        <string name="error_detalle_raices">%1$s\n\n%2$s:\nΔ = b² - 4ac\n\n%3$s:\nΔ = (%4$s)² - 4(%5$s)(%6$s)\n\nΔ = %7$s</string>
+
+        <!-- CILINDRO -->
+        <string name="titulo_cilindro">Cilindro</string>
+        <string name="formula_cilindro">Volumen: V = πr²h</string>
+        <string name="radio">Radio (cm)</string>
+        <string name="altura">Altura (cm)</string>
+        <string name="error_dimensiones_cilindro">El radio y la altura deben ser mayores que cero.</string>
+        <string name="error_rango_cilindro">El radio y la altura no pueden superar 1,000,000 cm.</string>
+        <string name="resultado_volumen">Volumen = %1$s cm³</string>
+        <string name="descripcion_cilindro">Cilindro</string>
+        <string name="formula_tarjeta_cilindro">Volumen</string>
+
+        <!-- ÍNDICE DE MASA CORPORAL -->
+        <string name="titulo_imc">Índice de masa corporal</string>
+        <string name="formula_imc">IMC = peso / altura²</string>
+        <string name="peso">Peso (kg)</string>
+        <string name="altura_imc">Altura (m)</string>
+        <string name="error_valores_imc">El peso y la altura deben ser mayores que cero.</string>
+        <string name="error_rango_imc">El peso no puede superar 500 kg y la altura no puede superar 2.5 m.</string>
+        <string name="resultado_imc">IMC = %1$.2f</string>
+        <string name="resultado_clasificacion">%1$s\nClasificación = %2$s</string>        <string name="imc_bajo_peso">Bajo peso</string>
+        <string name="imc_peso_normal">Peso normal</string>
+        <string name="imc_sobrepeso">Sobrepeso</string>
+        <string name="imc_obesidad">Obesidad</string>
+        <string name="descripcion_imc">Índice de masa corporal</string>
+        <string name="formula_tarjeta_imc">IMC</string>
+
+        <!-- LEY DE OHM -->
+        <string name="titulo_ley_ohm">Ley de Ohm</string>
+        <string name="formula_ley_ohm">I = V / R</string>
+        <string name="voltaje">Voltaje (V)</string>
+        <string name="resistencia">Resistencia (Ω)</string>
+        <string name="error_voltaje_negativo">El voltaje no puede ser negativo.</string>
+        <string name="error_resistencia_no_positiva">La resistencia debe ser mayor que cero.</string>
+        <string name="error_rango_ohm">El voltaje y la resistencia no pueden superar 1,000,000.</string>
+        <string name="resultado_corriente">Corriente = %1$.2f A</string>
+        <string name="descripcion_ley_ohm">Ley de Ohm</string>
+
+        <!-- VALIDACIONES GENERALES -->
+        <string name="error_calculo">No se pudo realizar el cálculo.</string>
+        <string name="error_campos_vacios">Completa todos los campos.</string>
+        <string name="error_numeros_invalidos">Introduce valores numéricos válidos.</string>
+        <string name="error_numeros_no_finitos">Introduce números finitos.</string>
+
+        <!-- TARJETAS DEL MENÚ -->
+        <string name="descripcion_cuadratica">Ecuación de segundo grado</string>
+        <string name="descripcion_ohm">Ley de Ohm</string>
+        <string name="formula_tarjeta_cuadratica">ax² + bx + c = 0</string>
+        <string name="formula_tarjeta_ohm">I = V / R</string>
+
+
+        <!-- INFORMACIÓN DE LAS CALCULADORAS -->
+
+        <!-- ECUACIÓN CUADRÁTICA -->
+        <string name="info_cuadratica">Calcula las raíces reales de una ecuación cuadrática.</string>
+        <string name="aviso_cuadratica">El coeficiente a no puede ser cero. Si el discriminante es negativo, no existen raíces reales.</string>
+
+        <!-- CILINDRO -->
+        <string name="info_cilindro">Calcula el volumen de un cilindro a partir de su radio y su altura.</string>
+        <string name="aviso_cilindro">El radio y la altura deben ser mayores que cero y no superar 1,000,000 cm.</string>
+
+        <!-- ÍNDICE DE MASA CORPORAL -->
+        <string name="info_imc">Calcula el índice de masa corporal usando el peso en kilogramos y la altura en metros.</string>
+        <string name="aviso_imc">El peso debe ser mayor que cero y no superar 500 kg. La altura debe ser mayor que cero y no superar 2.5 m. El resultado es orientativo y no constituye un diagnóstico médico.</string>
+
+        <!-- LEY DE OHM -->
+        <string name="info_ley_ohm">Calcula la corriente eléctrica a partir del voltaje y la resistencia.</string>
+        <string name="aviso_ley_ohm">El voltaje debe estar entre 0 y 1,000,000 V. La resistencia debe ser mayor que cero y no superar 1,000,000 Ω.</string>
+
+        <string name="regex_numero_decimal" translatable="false">^-?[0-9]+([.][0-9]+)?$</string>
+</resources>

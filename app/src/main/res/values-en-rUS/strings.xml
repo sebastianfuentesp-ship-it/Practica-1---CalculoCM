@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GENERAL -->
+    <string name="app_name" translatable="false">CálculoCM</string>
+    <string name="app_slogan">Calculate • Learn • Apply</string>
+
+    <!-- COMMON ELEMENTS -->
+    <string name="etiqueta_formula">Formula</string>
+    <string name="etiqueta_sustitucion">Substitution</string>
+    <string name="titulo_datos_entrada">Input Data</string>
+    <string name="titulo_resultado">Result</string>
+    <string name="titulo_resultado_correcto">Calculation Result</string>
+    <string name="titulo_datos_utilizados">Data Used</string>
+    <string name="titulo_error_calculo">Calculation Failed</string>
+    <string name="boton_calcular">Calculate</string>
+    <string name="boton_volver_menu">Back to Menu</string>
+    <string name="formato_dato_utilizado">%1$s: %2$s</string>
+    <string name="resultado_etiqueta">Result: %1$s</string>
+    <string name="descripcion_datos_calculo">Enter the values to calculate</string>
+
+    <!-- QUADRATIC EQUATION -->
+    <string name="titulo_cuadratica">Quadratic Equation</string>
+    <string name="formula_cuadratica">ax² + bx + c = 0</string>
+    <string name="coeficiente_a">Coefficient a</string>
+    <string name="coeficiente_b">Coefficient b</string>
+    <string name="coeficiente_c">Coefficient c</string>
+    <string name="error_coeficiente_a_cero">In a quadratic equation, coefficient a cannot be zero.</string>
+    <string name="error_sin_raices_reales">The equation has no real roots.</string>
+    <string name="resultado_raices_reales">Real Roots</string>
+    <string name="resultado_discriminante">Discriminant</string>
+    <string name="resultado_cuadratica">Real Roots:\nx₁ = %1$s\nx₂ = %2$s\n\nDiscriminant:\nΔ = %3$s</string>
+    <string name="error_detalle_raices">%1$s\n\n%2$s:\nΔ = b² - 4ac\n\n%3$s:\nΔ = (%4$s)² - 4(%5$s)(%6$s)\n\nΔ = %7$s</string>
+
+    <!-- CYLINDER -->
+    <string name="titulo_cilindro">Cylinder</string>
+    <string name="formula_cilindro">Volume: V = πr²h</string>
+    <string name="radio">Radius (cm)</string>
+    <string name="altura">Height (cm)</string>
+    <string name="error_dimensiones_cilindro">The radius and height must be greater than zero.</string>
+    <string name="error_rango_cilindro">The radius and height cannot exceed 1,000,000 cm.</string>
+    <string name="resultado_volumen">Volume = %1$s cm³</string>
+    <string name="descripcion_cilindro">Cylinder</string>
+    <string name="formula_tarjeta_cilindro">Volume</string>
+
+    <!-- BODY MASS INDEX -->
+    <string name="titulo_imc">Body Mass Index</string>
+    <string name="formula_imc">BMI = weight / height²</string>
+    <string name="peso">Weight (kg)</string>
+    <string name="altura_imc">Height (m)</string>
+    <string name="error_valores_imc">Weight and height must be greater than zero.</string>
+    <string name="error_rango_imc">Weight cannot exceed 500 kg, and height cannot exceed 2.5 m.</string>
+    <string name="resultado_imc">BMI = %1$.2f</string>
+    <string name="resultado_clasificacion">%1$s\nClassification = %2$s</string>
+    <string name="imc_bajo_peso">Underweight</string>
+    <string name="imc_peso_normal">Normal Weight</string>
+    <string name="imc_sobrepeso">Overweight</string>
+    <string name="imc_obesidad">Obesity</string>
+    <string name="descripcion_imc">Body Mass Index</string>
+    <string name="formula_tarjeta_imc">BMI</string>
+
+    <!-- OHM'S LAW -->
+    <string name="titulo_ley_ohm">Ohm\'s Law</string>
+    <string name="formula_ley_ohm">I = V / R</string>
+    <string name="voltaje">Voltage (V)</string>
+    <string name="resistencia">Resistance (Ω)</string>
+    <string name="error_voltaje_negativo">Voltage cannot be negative.</string>
+    <string name="error_resistencia_no_positiva">Resistance must be greater than zero.</string>
+    <string name="error_rango_ohm">Voltage cannot exceed 1,000,000 V, and resistance cannot exceed 1,000,000 Ω.</string>
+    <string name="resultado_corriente">Current = %1$.2f A</string>
+    <string name="descripcion_ley_ohm">Ohm\'s Law</string>
+
+    <!-- GENERAL VALIDATION -->
+    <string name="error_calculo">The calculation could not be completed.</string>
+    <string name="error_campos_vacios">Please fill in all fields.</string>
+    <string name="error_numeros_invalidos">Enter valid numeric values.</string>
+    <string name="error_numeros_no_finitos">Enter finite numbers.</string>
+
+    <!-- HOME MENU CARDS -->
+    <string name="descripcion_cuadratica">Quadratic Equation</string>
+    <string name="descripcion_ohm">Ohm\'s Law</string>
+    <string name="formula_tarjeta_cuadratica">ax² + bx + c = 0</string>
+    <string name="formula_tarjeta_ohm">I = V / R</string>
+
+    <!-- CALCULATOR INFORMATION -->
+
+    <!-- QUADRATIC EQUATION -->
+    <string name="info_cuadratica">Calculate the real roots of a quadratic equation.</string>
+    <string name="aviso_cuadratica">Coefficient a cannot be zero. If the discriminant is negative, there are no real roots.</string>
+
+    <!-- CYLINDER -->
+    <string name="info_cilindro">Calculate a cylinder\'s volume using its radius and height.</string>
+    <string name="aviso_cilindro">The radius and height must be greater than zero and cannot exceed 1,000,000 cm.</string>
+
+    <!-- BODY MASS INDEX -->
+    <string name="info_imc">Calculate body mass index using weight in kilograms and height in meters.</string>
+    <string name="aviso_imc">Weight must be greater than zero and cannot exceed 500 kg. Height must be greater than zero and cannot exceed 2.5 m. The result is for informational purposes only and is not a medical diagnosis.</string>
+
+    <!-- OHM'S LAW -->
+    <string name="info_ley_ohm">Calculate electric current using voltage and resistance.</string>
+    <string name="aviso_ley_ohm">Voltage must be between 0 and 1,000,000 V. Resistance must be greater than zero and cannot exceed 1,000,000 Ω.</string>
+
+</resources>
