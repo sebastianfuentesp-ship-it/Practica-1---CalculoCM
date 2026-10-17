@@ -95,9 +95,3 @@ Estructura relevante
 - res/values-en-rUS/strings.xml: textos en inglés.
 - res/drawable/: imágenes de fórmulas, iconos y fondos usados por la interfaz.
 
-Nota
-----
-Antes de entregar, verifica en Android Studio que minSdk sea 28, que el icono
-personalizado esté aplicado al launcher y que el proyecto compile correctamente.
-Los límites exactos de cada cálculo dependen de las validaciones implementadas
-en sus respectivas clases.
